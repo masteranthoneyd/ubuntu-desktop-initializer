@@ -30,6 +30,19 @@ GIT_USER_EMAIL="YOUR_GIT_EMAIL"
 
 更多配置请查看 `env.sh`
 
+执行 `./install.sh`, 脚本最后会执行 `theme.sh`, 其他几个脚本是否执行可通过 `env.sh` 进行配置:
+
+```
+# 是否执行 theme.sh
+ENABLE_THEME=true
+# 是否执行 dev_env.sh
+ENABLE_DEV_ENV=false
+# 是否执行 commom_soft.sh
+ENABLE_COMMON_SOFT=false
+# 是否执行 hexo.sh
+ENABLE_HEXO=false
+```
+
 # 涵盖内容
 
 ## 系统设置
